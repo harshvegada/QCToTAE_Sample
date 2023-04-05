@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/harsh.vegada/Documents/Personal_Stuff/Web_Automation/QCtoTAE_PageFactory/src/test/java/scripts/AutomationTestCases.java">
+        <classes>
+            <class name="scripts.AutomationTestCases">
+                <methods>
+                    <include name="validateProductTitleAndPrice"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
