@@ -13,6 +13,8 @@ public class TestExample {
     @Test(dependsOnMethods = "m1")
     public void m2() {
         System.out.println("m2");
+        System.out.println("m5");
+        System.out.println("m6");
     }
 
 }
